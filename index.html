@@ -12,15 +12,17 @@
 
 </head>
 <body>
-
-
-
     <div id="map"></div>
-    <div class="buttons">
-        <button class="button" id="coffee">Coffee</button>
-        <button class="button" id="thetre">thetre</button>
-        <button class="button" id="Parks">Parks</button>
-    </div>
+
+    <label for="Locations">Select a Location:</label>
+    <select name="Locations" id="Locations">
+        <option value="coffee">Coffee Shop</option>
+        <option value="thetre">Thetre</option>
+        <option value="park">Parks</option>
+    </select>
+    <button onclick="searchLocation()">Search</button>
+
+
 
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="

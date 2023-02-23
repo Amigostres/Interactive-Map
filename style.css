@@ -2,11 +2,11 @@
     height: 600px;
     background-color: #333;
  }
- .buttons{
+ .container{
     background-color: red;
     display: flex;
     justify-content: space-around;
  }
-.button{
+/* .button{
     height: 4vhvh;
-}
+} */
